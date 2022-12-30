@@ -24,7 +24,7 @@ This lab is a network of vulnerable Windows servers. Each box suffers from a sev
 
 ## Second Box
 
-
+### Same as before; we perform an nmap scan to find the open and available ports and their services :
 ![Alt text](includes/8.8.png?raw=true "Title")
 ![Alt text](includes/9.png?raw=true "Title")
 ![Alt text](includes/10.png?raw=true "Title")
