@@ -49,8 +49,11 @@ This lab is a network of vulnerable Windows servers. Each box suffers from a sev
 ![Alt text](includes/17.png?raw=true "Title")
 
 ## Last Box
-
+### So you know that I'm a newbie at this I forgot to screenshot the nmap output, but it's okey;  I found that the port 80 is opeen so I checked the website:
 ![Alt text](includes/19.png?raw=true "Title")
+### I found that it has HFS service, so I just searched if there an exploit that I can use, And Viola:
 ![Alt text](includes/20.png?raw=true "Title")
+### then set the value with my data :
 ![Alt text](includes/21.png?raw=true "Title")
+### and as you can see I gained Access to the Box:
 ![Alt text](includes/22.png?raw=true "Title")
