@@ -26,9 +26,13 @@ This lab is a network of vulnerable Windows servers. Each box suffers from a sev
 
 ### Same as before; we perform an nmap scan to find the open and available ports and their services :
 ![Alt text](includes/8.8.png?raw=true "Title")
+### As you can see the port 445 is open, which led me to try and  list smb shares with these scripts that work with nmap , which I googled of course:
 ![Alt text](includes/9.png?raw=true "Title")
+### As you can see, there was a Directory that was exposed to anonymous users and everyone has the write to raed, so I downloaded the files that we can extract the hives from them
 ![Alt text](includes/10.png?raw=true "Title")
+### After downloading the files, I used secretsdump.py :
 ![Alt text](includes/11.png?raw=true "Title")
+
 ![Alt text](includes/12.png?raw=true "Title")
 
 ## Third Box
