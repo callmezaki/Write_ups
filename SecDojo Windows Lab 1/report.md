@@ -1,5 +1,7 @@
 # SecDojo Windows Lab 1
 
+This lab is a network of vulnerable Windows servers. Each box suffers from a severe vulnerability that if properly exploited, will grant you administrator access and get you the root flag located at the Administrator desktop folder.
+
 ![Alt text](includes/1.png?raw=true "Title")
 ![Alt text](includes/2.png?raw=true "Title")
 ![Alt text](includes/3.png?raw=true "Title")
