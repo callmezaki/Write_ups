@@ -21,15 +21,9 @@ This lab is a network of vulnerable Windows servers. Each box suffers from a sev
 ![Alt text](includes/6.png?raw=true "Title")
 ### And now that I'am in, I just went to get the flag which was on the proof.txt :
 ![Alt text](includes/7.png?raw=true "Title")
-
-
-
-
+##
 ## Second Box
-
-
-
-
+##
 ### Same as before; we perform an nmap scan to find the open and available ports and their services :
 ![Alt text](includes/8.8.png?raw=true "Title")
 ### As you can see the port 445 is open, which led me to try and  list smb shares with these scripts that work with nmap , which I googled of course:
@@ -40,15 +34,9 @@ This lab is a network of vulnerable Windows servers. Each box suffers from a sev
 ![Alt text](includes/11.png?raw=true "Title")
 ### So with psExec I gained access to the machine :
 ![Alt text](includes/12.png?raw=true "Title")
-
-
-
-
+##
 ## Third Box
-
-
-
-
+##
 ### Repetetion!!!
 ![Alt text](includes/13.1.png?raw=true "Title")
 ### In this Box, I was clueless what is the venurabily untel I got a hit about the it could be a vunerabilty in the netlogon which led me to zerologon exploit
@@ -59,14 +47,9 @@ This lab is a network of vulnerable Windows servers. Each box suffers from a sev
 ![Alt text](includes/16.png?raw=true "Title")
 ### And now that I'am in, I just went to get the flag which was on the proof.txt :
 ![Alt text](includes/17.png?raw=true "Title")
-
-
-
-
+##
 ## Last Box
-
-
-
+##
 ### So you know that I'm a newbie at this I forgot to screenshot the nmap output, but it's okey;  I found that the port 80 is opeen so I checked the website:
 ![Alt text](includes/19.png?raw=true "Title")
 ### I found that it has HFS service, so I just searched if there an exploit that I can use, And Viola:
