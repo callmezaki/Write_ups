@@ -19,13 +19,20 @@ This lab is a network of vulnerable Windows servers. Each box suffers from a sev
 ![Alt text](includes/5.png?raw=true "Title")
 ### So I passed the Hash to wmiexec.py to grant me access to the Box :
 ![Alt text](includes/6.png?raw=true "Title")
-### 
+### And now that I'am in, I just went to get the flag which was on the proof.txt :
 ![Alt text](includes/7.png?raw=true "Title")
+
+## Second Box
+
+
 ![Alt text](includes/8.8.png?raw=true "Title")
 ![Alt text](includes/9.png?raw=true "Title")
 ![Alt text](includes/10.png?raw=true "Title")
 ![Alt text](includes/11.png?raw=true "Title")
 ![Alt text](includes/12.png?raw=true "Title")
+
+## Third Box
+
 ![Alt text](includes/13.1.png?raw=true "Title")
 ![Alt text](includes/14.png?raw=true "Title")
 ![Alt text](includes/15.png?raw=true "Title")
