@@ -37,8 +37,11 @@ This lab is a network of vulnerable Windows servers. Each box suffers from a sev
 
 ## Third Box
 
+### Repetetion!!!
 ![Alt text](includes/13.1.png?raw=true "Title")
+### In this Box, I was clueless what is the venurabily untel I got a hit about the it could be a vunerabilty in the netlogon which led me to zerologon exploit
 ![Alt text](includes/14.png?raw=true "Title")
+### So I used the exploit to set the password to NULL
 ![Alt text](includes/15.png?raw=true "Title")
 ![Alt text](includes/16.png?raw=true "Title")
 ![Alt text](includes/17.png?raw=true "Title")
