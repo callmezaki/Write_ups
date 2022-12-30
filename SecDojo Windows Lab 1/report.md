@@ -38,7 +38,9 @@ This lab is a network of vulnerable Windows servers. Each box suffers from a sev
 ![Alt text](includes/15.png?raw=true "Title")
 ![Alt text](includes/16.png?raw=true "Title")
 ![Alt text](includes/17.png?raw=true "Title")
-![Alt text](includes/18.png?raw=true "Title")
+
+## Last Box
+
 ![Alt text](includes/19.png?raw=true "Title")
 ![Alt text](includes/20.png?raw=true "Title")
 ![Alt text](includes/21.png?raw=true "Title")
