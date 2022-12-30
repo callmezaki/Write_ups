@@ -11,11 +11,15 @@ This lab is a network of vulnerable Windows servers. Each box suffers from a sev
 ### -sV: Enables version detection, which will detect what versions are running on what port
 ### We found an http server and in it the following :
 ![Alt text](includes/2.png?raw=true "Title")
-### I checked the sub folders of 
+### I checked the sub folders of the directory and found the following :
 ![Alt text](includes/3.png?raw=true "Title")
+### Then used pypkatz to extract the hashes from the dup file with the following cammand :
 ![Alt text](includes/4.png?raw=true "Title")
+### Which led me to finding an NT hash for the adminstrator user :
 ![Alt text](includes/5.png?raw=true "Title")
+### So I passed the Hash to wmiexec.py to grant me access to the Box :
 ![Alt text](includes/6.png?raw=true "Title")
+### 
 ![Alt text](includes/7.png?raw=true "Title")
 ![Alt text](includes/8.8.png?raw=true "Title")
 ![Alt text](includes/9.png?raw=true "Title")
