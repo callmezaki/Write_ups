@@ -43,7 +43,9 @@ This lab is a network of vulnerable Windows servers. Each box suffers from a sev
 ![Alt text](includes/14.png?raw=true "Title")
 ### So I used the exploit to set the password to NULL
 ![Alt text](includes/15.png?raw=true "Title")
+### After that I used secretdump again to gain access
 ![Alt text](includes/16.png?raw=true "Title")
+### And now that I'am in, I just went to get the flag which was on the proof.txt :
 ![Alt text](includes/17.png?raw=true "Title")
 
 ## Last Box
