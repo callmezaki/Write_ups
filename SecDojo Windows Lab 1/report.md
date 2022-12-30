@@ -6,13 +6,12 @@ This lab is a network of vulnerable Windows servers. Each box suffers from a sev
 
 ## First Box
 
-
-### Enumeration
 First, we perform an nmap scan to find the open and available ports and their services :
 ![Alt text](includes/1.png?raw=true "Title")
 -sV: Enables version detection, which will detect what versions are running on what
 port
-
+###
+We found an http server
 ![Alt text](includes/2.png?raw=true "Title")
 ![Alt text](includes/3.png?raw=true "Title")
 ![Alt text](includes/4.png?raw=true "Title")
