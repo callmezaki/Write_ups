@@ -21,8 +21,10 @@ This lab serves as an environment to get you up and running with many aspects of
 
 ![Alt text](Includes/4.png?raw=true "Title")
 ![Alt text](Includes/5.png?raw=true "Title")
-### Now  we can try to log in as that user using psexec :
+### Now  we can try to log in as that user using wmiexec:
 ![Alt text](Includes/6.png?raw=true "Title")
 ### Unfortunally the log in failed because the user password has expired,but we can renew it with smbpasswd cammand :
 ![Alt text](Includes/7.png?raw=true "Title")
-### 
+### After renwing the passwod we try again and then that's it we are in we just should go grab the proof
+![Alt text](Includes/8.png?raw=true "Title")
+![Alt text](Includes/9.png?raw=true "Title")
