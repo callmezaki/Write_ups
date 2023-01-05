@@ -1,4 +1,4 @@
-# SecDojo Windows Lab 1
+# SecDojo Windows Lab 2
 
 ## General idea about the lab
 
