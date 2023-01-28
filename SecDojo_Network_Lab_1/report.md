@@ -22,7 +22,8 @@ The purpose of this lab is to learn how to perform network packet analysis in or
 ![Alt text](Includes/9.png?raw=true "Title")
 ### And then use the credentials to login using ssh
 ![Alt text](Includes/10.png?raw=true "Title")
-### after we gained access we should find a way to elevate our privilege
+### after we gained access we should find a way to elevate our privilege; when executing the command "sudo -l" , it tells you what can you do without password, in our case we can execute "wget" with high privilege without the need of being soduers ?Forgot to screenshot it?
+### With is info, I sent the /etc/shadow file to my local machine and changed the root hash to be the same hash of the user that I already know the password of, and then I posted it back , so I can login to root
 ![Alt text](Includes/11.png?raw=true "Title")
 ![Alt text](Includes/12.png?raw=true "Title")
 ![Alt text](Includes/13.png?raw=true "Title")
