@@ -18,8 +18,11 @@ The purpose of this lab is to learn how to perform network packet analysis in or
 ![Alt text](Includes/7.png?raw=true "Title")
 ### in the file we see that we have http request and in it's body there is a username and a password we can use
 ![Alt text](Includes/8.png?raw=true "Title")
+### we decode the password
 ![Alt text](Includes/9.png?raw=true "Title")
+### And then use the credentials to login using ssh
 ![Alt text](Includes/10.png?raw=true "Title")
+### after we gained access we should find a way to elevate our privilege
 ![Alt text](Includes/11.png?raw=true "Title")
 ![Alt text](Includes/12.png?raw=true "Title")
 ![Alt text](Includes/13.png?raw=true "Title")
