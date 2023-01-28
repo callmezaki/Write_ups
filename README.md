@@ -1,2 +1,2 @@
 # Write_ups
-In this repo I will share the Write ups of labs that I did 
+In this repo; I will be sharing write-ups of labs that PWNed
