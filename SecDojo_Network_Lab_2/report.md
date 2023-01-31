@@ -15,7 +15,7 @@ The purpose of this lab is to show how an out-of-date network monitoring softwar
 
 ![Alt text](Includes/3.png?raw=true "Title")
 
-### this Exploit can do the work for us; from gaining access as a regular user into escalating privilege to higher user :
+### this Exploit can do the work for us; from gaining access as a regular user to escalating privilege to a higher user :
 
 ![Alt text](Includes/4.png?raw=true "Title")
 
