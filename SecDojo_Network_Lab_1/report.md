@@ -3,15 +3,15 @@
 ## General idea about the lab
 The purpose of this lab is to learn how to perform network packet analysis to get more intel about the hidden network infrastructure, detect misconfigurations, and most importantly, how you can make use of this intel to get access to systems and escalate your privileges.
 
-### First, we perform a nmap TCP scan to find the open and available ports and their services :
+### First, we perform a Nmap TCP scan to find the open and available ports and their services :
 ![Alt text](Includes/1.png?raw=true "Title")
 ### And another scan as UDP
 ![Alt text](Includes/2.png?raw=true "Title")
-### We do a nmap check to gain more info about the network
+### We do a Nmap check to gain more info about the network
 ![Alt text](Includes/3.png?raw=true "Title")
 ### After knocking on the ports we see that the FTP is now marked open not filtered as it once was
 ![Alt text](Includes/4.png?raw=true "Title")
-### Using n nmap script we check if there is any data we can access as outsiders
+### Using n Nmap script we check if there is any data we can access as outsiders
 ![Alt text](Includes/5.png?raw=true "Title")
 ### After finding that there is a file we can access anonymously, we log in to FTP as an anonymous user and get the file
 ![Alt text](Includes/6.png?raw=true "Title")
