@@ -19,8 +19,14 @@ The purpose of this lab is to show how an out-of-date network monitoring softwar
 
 ![Alt text](Includes/4.png?raw=true "Title")
 
-
+### So then we add the required options and run it :
 
 ![Alt text](Includes/5.png?raw=true "Title")
+
+### After successful exploitation; A meterpreter session is created :
+
 ![Alt text](Includes/6.png?raw=true "Title")
+
+### As you see we managed to gain a root privilege : 
+
 ![Alt text](Includes/7.png?raw=true "Title")
