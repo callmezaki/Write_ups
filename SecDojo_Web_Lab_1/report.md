@@ -30,7 +30,7 @@ this lab is a vulnerable web application designed to mimic a poorly designed e-b
 
 ![Alt text](Includes/6.png?raw=true "Title")
 
-> ### As you see our payload worked so we should just get our proof that simply:
+> ### As you see our payload worked so we should just get our proof that simply :
 
 
 ![Alt text](Includes/7.png?raw=true "Title")
